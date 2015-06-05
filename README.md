@@ -1,6 +1,6 @@
 # PHP-Simple-Database
 
-A simple flat-file key/value storage class for PHP. Great for small databases or servers with SQL can't be used. Only 150 lines of code :)
+A simple flat-file key/value storage class for PHP. Great for small databases or servers where SQL can't be used. Only 150 lines of code :)
 
 ### Example
 
