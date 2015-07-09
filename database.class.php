@@ -18,7 +18,7 @@ class database {
 
 		if(!file_exists($path)) {mkdir($path);}
 
-		file_put_contents($this->d_settings, '{"dev_mode": ' . $this->dev_mode . ', "recent_update:" ' . time() . '}');
+		file_put_contents($this->d_settings, '{"dev_mode": ' . $this->dev_mode . ', "recent_update": ' . time() . '}');
 	}
 
 	private function handleError($text, $override = false)
