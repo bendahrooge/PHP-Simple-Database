@@ -2,6 +2,8 @@
 
 A simple flat-file key/value storage class for PHP. Great for small databases or servers where SQL can't be used. Only 150 lines of code :)
 
+This is not a replacement for SQL or other databases, and it should only be used in smaller applications where a conventional isn't possbile. It is very inefficient and slow for PHP to key pulling and overwriting an entire JSON file. 
+
 ### Example
 
 ```
